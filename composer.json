@@ -1,0 +1,13 @@
+{
+    "name": "porterai/plugin-wp-admin-notices",
+    "description": "Helper plugin for developers to easily time-based admin notices for posts, comments, or taxonomies.",
+    "type": "plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jonathan Bouganim",
+            "email": "jb@86inc.co"
+        }
+    ],
+    "require": {}
+}

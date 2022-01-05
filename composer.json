@@ -9,5 +9,8 @@
             "email": "jb@86inc.co"
         }
     ],
+    "autoload": {
+        "classmap": ["wp-admin-notices.php"]
+    },
     "require": {}
 }

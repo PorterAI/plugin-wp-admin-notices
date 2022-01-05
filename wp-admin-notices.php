@@ -3,7 +3,7 @@
  *
  * Plugin Name:       WP Admin Notices
  * Description:       Helper plugin for developers to easily time-based admin notices for posts, comments, or taxonomies.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            PorterAI
  * Author URI: 		  https://porterai.com
  * License:           GPL-2.0+

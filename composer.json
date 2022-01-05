@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "classmap": ["wp-admin-notices.php"]
+        "files": ["wp-admin-notices.php"]
     },
     "require": {}
 }

@@ -3,22 +3,19 @@
  *
  * Plugin Name:       WP Admin Notices
  * Description:       Helper plugin for developers to easily time-based admin notices for posts, comments, or taxonomies.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            PorterAI
  * Author URI: 		  https://porterai.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       simple-admin-branding
- * Domain Path: 	  /languages
+ * Text Domain:       wp-admin-notices
  */
-
-namespace PorterAI;
 
 defined( 'ABSPATH' ) or die( 'Access forbidden!' );
 
-if (!class_exists('PorterAI\Admin_Notices')) :
+if (!class_exists('WP_Admin_Notices')) :
 
-class Admin_Notices {
+class WP_Admin_Notices {
 
     public $object_id;
     public $object_type;
@@ -313,6 +310,6 @@ class Admin_Notices {
     }
 }
 
-Admin_Notices::init_hooks();
+WP_Admin_Notices::init_hooks();
 
 endif;

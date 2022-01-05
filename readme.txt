@@ -17,25 +17,25 @@ Example Usage:
 
 Post Type:
 <code>
-$notice_board = new PorterAI\Admin_Notices( $post_id, 'post' );
+$notice_board = new WP_Admin_Notices( $post_id, 'post' );
 $notice_board->add_notice("attachments-move-failed", "Failed to update this post", 'error', true);
 </code>
 
 Comment:
 <code>
-$notice_board = new PorterAI\Admin_Notices( $commend_id, 'comment' );
+$notice_board = new WP_Admin_Notices( $commend_id, 'comment' );
 $notice_board->add_notice("attachments-move-failed", "Updated this comment", 'info', true);
 </code>
 
 Term:
 <code>
-$notice_board = new PorterAI\Admin_Notices( $term_id, 'term' );
+$notice_board = new WP_Admin_Notices( $term_id, 'term' );
 $notice_board->add_notice("attachments-move-failed", "Failed to upload image", 'warning', true);
 </code>
 
 Global:
 <code>
-$notice_board = new PorterAI\Admin_Notices();
+$notice_board = new WP_Admin_Notices();
 $notice_board->add_notice("attachments-move-failed", "Enabled X Feature", 'success', true);
 </code>
 
